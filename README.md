@@ -10,7 +10,7 @@
 ### 2.进程和线程的区别，进程间如何通讯，线程间如何通讯
 ### 3.HashMap的数据结构是什么？如何实现的。和HashTable，ConcurrentHashMap的区别
 ### 4.Cookie和Session的区别
-### 5.索引有什么用？如何建索引？
+### 5.索引有什么用？如何建索引？索引类型有哪些？
 ### 6.ArrayList是如何实现的，ArrayList和LinkedList的区别？ArrayList如何实现扩容。
 ### 7.equals方法实现
 ### 8.面向对象
