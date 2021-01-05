@@ -29,8 +29,10 @@
   -  **信号量机制(Semaphore)**：包括无名线程信号量和命名线程信号量 
   -   **信号机制(Signal)**：类似进程间的信号处理线程间的通信目的主要是用于线程同步，所以线程没有像进程通信中的用于数据交换的通信机制。 
 
-### 3.HashMap的数据结构是什么？如何实现的。和HashTable，ConcurrentHashMap的区别
+### 3.HashMap、HashTable、ConcurrentHashMap
+
 ### 4.Cookie和Session的区别
+
 ### 5.索引有什么用？如何建索引？索引类型有哪些？
 ### 6.ArrayList是如何实现的，ArrayList和LinkedList的区别？ArrayList如何实现扩容。
 ### 7.equals方法实现
