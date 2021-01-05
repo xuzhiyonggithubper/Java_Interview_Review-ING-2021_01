@@ -1,6 +1,4 @@
 # Java_Interview_Review-ING-2021_01
-@[TOC](目录)
-
 ### 1.Java线程的状态
 
 - **初始(NEW)**：新创建了一个线程对象，但还没有调用start()方法。
