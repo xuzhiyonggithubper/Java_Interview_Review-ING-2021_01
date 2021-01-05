@@ -31,6 +31,9 @@
 
 ### 3.HashMap、HashTable、ConcurrentHashMap
 
+- **HashMap**
+  - 数据结构：数组+链表
+
 ### 4.Cookie和Session的区别
 
 ### 5.索引有什么用？如何建索引？索引类型有哪些？
