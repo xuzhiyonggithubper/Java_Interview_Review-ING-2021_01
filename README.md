@@ -29,12 +29,12 @@
   -  **信号量机制(Semaphore)**：包括无名线程信号量和命名线程信号量 
   -   **信号机制(Signal)**：类似进程间的信号处理线程间的通信目的主要是用于线程同步，所以线程没有像进程通信中的用于数据交换的通信机制。 
 
-### 3.HashMap、HashTable、ConcurrentHashMap1
+### 3.HashMap、HashTable、ConcurrentHashMap
 
 - **HashMap**
   - **数据结构**：JDK1.8之前数组+链表，JDK1.8后数组+链表（红黑树），哈希碰撞本质由链表或树结构进行解决。
 - **HashTable** 
-  - 	**数据结构**：链表
+  - 	**数据结构**：链表。
 - **ConcurrentHashMap**
   - 		**数据结构JDK1.7**： Segment + HashEntry + Unsafe 
   - 		**数据结构JDK1.8**： Synchronized + CAS + Node + Unsafe 
