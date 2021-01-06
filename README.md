@@ -33,7 +33,7 @@
 
 - **HashMap**
   - **数据结构**：JDK1.8之前数组+链表，JDK1.8后数组+链表（红黑树），哈希碰撞本质由链表或树结构进行解决。
-- **HashTable** 
+- **HashTable**
   - 	**数据结构**：链表。
 - **ConcurrentHashMap**
   - 		**数据结构JDK1.7**： Segment + HashEntry + Unsafe 
