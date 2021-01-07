@@ -41,6 +41,16 @@
 
 ### 4.Cookie和Session的区别
 
+- cookie 和session的区别是：cookie数据保存在客户端，session数据保存在服务器端。
+- 两个都可以用来存私密的东西，同样也都bai有有效期的说法,区别在于session是放在服务器上的，过期与否取决于服务期的设定，cookie是存在客户端的，过去与否可以在cookie生成的时候设置进去。 
+  - cookie数据存放在客户的浏览器上，session数据放在服务器上；
+  - cookie不是很安全，别人可以分析存放在本地的COOKIE并进行COOKIE欺骗,如果主要考虑到安全应当使用session；
+  - session会在一定时间内保存在服务器上。当访问增多，会比较占用你服务器的性能，如果主要考虑到减轻服务器性能方面，应当使用COOKIE；
+  - 单个cookie在客户端的限制是3K，就是说一个站点在客户端存放的COOKIE不能3K；
+  - 所以将登陆信息等重要信息存放为SESSION;其他信息如果需要保留，可以放在COOKIE中；
+- cookie和session的共同之处在于：cookie和session都是用来跟踪浏览器用户身份的会话方式。
+- cookie 是一种发送到客户浏览器的文本串句柄，并保存在客户机硬盘上，可以用来在某个WEB站点会话间持久的保持数据。
+
 ### 5.索引有什么用？如何建索引？索引类型有哪些？
 ### 6.ArrayList是如何实现的，ArrayList和LinkedList的区别？ArrayList如何实现扩容。
 ### 7.equals方法实现
